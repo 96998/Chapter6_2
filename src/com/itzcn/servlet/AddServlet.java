@@ -88,7 +88,7 @@ public class AddServlet extends HttpServlet {
         }
         lt.add(user);
         application.setAttribute("users", lt);
-        request.getRequestDispatcher("/list.jsp").forward(request, response);
+        request.getRequestDispatcher("/list.jsp").forward(request, response);   //请求转发
 
     }
 
